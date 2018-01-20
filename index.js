@@ -13,10 +13,9 @@ describe('Arrays', function() {
   })
 })
 
-var kittens=['Milo', 'Otis', 'Garfield']
+var name=['Milo', 'Otis', 'Garfield']
 
 function destructivelyAppendKitten(name){
   name.push('Ralph')
-  return name
 }
 

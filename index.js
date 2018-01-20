@@ -18,4 +18,5 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   Object.assign(kittens, {name})
+  return kittens
 }
